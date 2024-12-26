@@ -1,0 +1,76 @@
+﻿body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.3); /* Şeffaf navbar */
+    backdrop-filter: blur(5px); /* Bulanıklık efekti */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: url('hero-bg.jpg') no-repeat center/cover;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+.hero .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #ff5733;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.albums {
+    padding: 40px;
+    text-align: center;
+}
+
+.album-list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.album img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+}

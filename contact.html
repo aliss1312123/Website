@@ -1,0 +1,185 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAMURAI Record - İletişim</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Genel Arkaplan ve Yazı Stili */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        /* Video Arka Plan */
+        .video-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+
+        /* Header */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background: rgba(0, 0, 0, 0.3);
+            color: #fff;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+            nav ul li a {
+                color: #fff;
+                text-decoration: none;
+            }
+
+        /* İletişim Sayfası Stili */
+        .contact-container {
+            margin: 100px auto 50px;
+            padding: 20px;
+            width: 90%;
+            max-width: 800px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            text-align: center;
+        }
+
+            .contact-container h1 {
+                font-size: 36px;
+                margin-bottom: 10px;
+            }
+
+            .contact-container p {
+                font-size: 18px;
+                color: #ccc;
+                margin-bottom: 30px;
+            }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+            .contact-form input,
+            .contact-form textarea {
+                padding: 10px;
+                font-size: 16px;
+                border-radius: 5px;
+                border: none;
+                outline: none;
+            }
+
+            .contact-form textarea {
+                resize: none;
+                height: 150px;
+            }
+
+            .contact-form button {
+                padding: 10px 20px;
+                font-size: 18px;
+                font-weight: bold;
+                color: #fff;
+                background: #ff5733;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: background 0.3s ease;
+            }
+
+                .contact-form button:hover {
+                    background: #e74c3c;
+                }
+
+        /* İletişim Bilgileri */
+        .contact-info {
+            margin-top: 30px;
+        }
+
+            .contact-info p {
+                font-size: 16px;
+                margin: 5px 0;
+            }
+
+            .contact-info a {
+                color: #ff5733;
+                text-decoration: none;
+            }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.7);
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <!-- Video Arka Plan -->
+    <video class="video-bg" autoplay muted loop>
+        <source src="C:\Users\eren yager\Desktop\site proje odevi\background-video.mp4" type="video/mp4">
+        Tarayıcınız video etiketini desteklemiyor.
+    </video>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">SAMURAI Record</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="album.html">Albümler</a></li>
+                <li><a href="about.html">Hakkımızda</a></li>
+                <li><a href="contact.html">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- İletişim Bölümü -->
+    <main>
+        <div class="contact-container">
+            <h1>Bizimle İletişime Geçin</h1>
+            <p>Her türlü soru, öneri veya iş birliği için bizimle iletişime geçebilirsiniz.</p>
+            <form class="contact-form">
+                <input type="text" placeholder="Adınız" required>
+                <input type="email" placeholder="E-posta Adresiniz" required>
+                <input type="text" placeholder="Konu" required>
+                <textarea placeholder="Mesajınız" required></textarea>
+                <button type="submit">Gönder</button>
+            </form>
+            <div class="contact-info">
+                <p><strong>E-posta:</strong> <a href="mailto:info@samurairecord.com">info@samurairecord.com</a></p>
+                <p><strong>Telefon:</strong> <a href="tel:+905551234567">+90 555 123 45 67</a></p>
+                <p><strong>Adres:</strong> İstanbul, Türkiye</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 SAMURAI Record. Tüm Hakları Saklıdır.</p>
+    </footer>
+</body>
+</html>

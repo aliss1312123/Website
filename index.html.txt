@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>40A3 Record - Ana Sayfa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">40A3 Record</div>
+        <nav>
+            <ul>
+                <li><a href="#">Ana Sayfa</a></li>
+                <li><a href="#albums">Albümler</a></li>
+                <li><a href="#about">Hakkımızda</a></li>
+                <li><a href="#contact">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="hero">
+            <h1>40A3 Record'a Hoş Geldiniz</h1>
+            <p>En iyi müzik albümlerini keşfedin ve satın alın!</p>
+            <a href="#albums" class="btn">Albümleri Gör</a>
+        </section>
+        
+        <section id="albums" class="albums">
+            <h2>Popüler Albümler</h2>
+            <div class="album-list">
+                <div class="album">
+                    <img src="album1.jpg" alt="Albüm 1">
+                    <h3>Albüm Adı 1</h3>
+                    <p>Sanatçı Adı</p>
+                </div>
+                <div class="album">
+                    <img src="album2.jpg" alt="Albüm 2">
+                    <h3>Albüm Adı 2</h3>
+                    <p>Sanatçı Adı</p>
+                </div>
+                <div class="album">
+                    <img src="album3.jpg" alt="Albüm 3">
+                    <h3>Albüm Adı 3</h3>
+                    <p>Sanatçı Adı</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="about" class="about">
+            <h2>Hakkımızda</h2>
+            <p>40A3 Record, kaliteli müzik ve eşsiz sanatçıları dinleyicilerle buluşturmak için kuruldu. Müzik dünyasına katkı sağlamaktan gurur duyuyoruz.</p>
+        </section>
+        
+        <section id="contact" class="contact">
+            <h2>İletişim</h2>
+            <p>Bize ulaşmak için <a href="mailto:info@40a3record.com">info@40a3record.com</a> adresine e-posta gönderebilirsiniz.</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 40A3 Record. Tüm Hakları Saklıdır.</p>
+    </footer>
+</body>
+</html>
